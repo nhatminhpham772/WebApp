@@ -1,11 +1,62 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "WebApp.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/WebApp.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApp.Data.dll": {}
+        }
+      },
+      "WebApp.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/WebApp.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApp.Infrastructure.dll": {}
+        }
+      },
+      "WebApp.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/WebApp.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApp.Utilities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WebApp.Data/1.0.0": {
+      "type": "project",
+      "path": "../WebApp.Data/WebApp.Data.csproj",
+      "msbuildProject": "../WebApp.Data/WebApp.Data.csproj"
+    },
+    "WebApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../WebApp.Infrastructure/WebApp.Infrastructure.csproj",
+      "msbuildProject": "../WebApp.Infrastructure/WebApp.Infrastructure.csproj"
+    },
+    "WebApp.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../WebApp.Utilities/WebApp.Utilities.csproj",
+      "msbuildProject": "../WebApp.Utilities/WebApp.Utilities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "WebApp.Data >= 1.0.0",
+      "WebApp.Infrastructure >= 1.0.0",
+      "WebApp.Utilities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\nhatm\\.nuget\\packages\\": {}
@@ -13,11 +64,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Web\\WebApp\\WebApp.Data.EF\\WebApp.Data.EF.csproj",
+      "projectUniqueName": "E:\\Clone\\WebApp\\WebApp.Data.EF\\WebApp.Data.EF.csproj",
       "projectName": "WebApp.Data.EF",
-      "projectPath": "D:\\Web\\WebApp\\WebApp.Data.EF\\WebApp.Data.EF.csproj",
+      "projectPath": "E:\\Clone\\WebApp\\WebApp.Data.EF\\WebApp.Data.EF.csproj",
       "packagesPath": "C:\\Users\\nhatm\\.nuget\\packages\\",
-      "outputPath": "D:\\Web\\WebApp\\WebApp.Data.EF\\obj\\",
+      "outputPath": "E:\\Clone\\WebApp\\WebApp.Data.EF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nhatm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +84,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Clone\\WebApp\\WebApp.Data\\WebApp.Data.csproj": {
+              "projectPath": "E:\\Clone\\WebApp\\WebApp.Data\\WebApp.Data.csproj"
+            },
+            "E:\\Clone\\WebApp\\WebApp.Infrastructure\\WebApp.Infrastructure.csproj": {
+              "projectPath": "E:\\Clone\\WebApp\\WebApp.Infrastructure\\WebApp.Infrastructure.csproj"
+            },
+            "E:\\Clone\\WebApp\\WebApp.Utilities\\WebApp.Utilities.csproj": {
+              "projectPath": "E:\\Clone\\WebApp\\WebApp.Utilities\\WebApp.Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
