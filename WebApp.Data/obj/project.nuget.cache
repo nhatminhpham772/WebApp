@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4tOXrCTbGCcrZAG1DwMy17VzvxPGUiXK1Sg1i3DoNnmC0vvgd4/deV+XHJjf9nEAJICcZcwR3j8VW3gShmkGOg==",
+  "dgSpecHash": "OqiIEAVkVItMgJo8TuFji61VLwDFnAD5SqPwPHdrVzviLshJKUEBjc1bgPdQxv7wSOBFIeAoW6roVGDvA8ohWw==",
   "success": true,
-  "projectFilePath": "D:\\Web\\WebApp\\WebApp.Data\\WebApp.Data.csproj",
+  "projectFilePath": "E:\\Clone\\WebApp\\WebApp.Data\\WebApp.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
