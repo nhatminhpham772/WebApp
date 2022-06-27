@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Web\\WebApp\\WebApp.Utilities\\WebApp.Utilities.csproj",
+      "projectUniqueName": "E:\\Clone\\WebApp\\WebApp.Utilities\\WebApp.Utilities.csproj",
       "projectName": "WebApp.Utilities",
-      "projectPath": "D:\\Web\\WebApp\\WebApp.Utilities\\WebApp.Utilities.csproj",
+      "projectPath": "E:\\Clone\\WebApp\\WebApp.Utilities\\WebApp.Utilities.csproj",
       "packagesPath": "C:\\Users\\nhatm\\.nuget\\packages\\",
-      "outputPath": "D:\\Web\\WebApp\\WebApp.Utilities\\obj\\",
+      "outputPath": "E:\\Clone\\WebApp\\WebApp.Utilities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nhatm\\AppData\\Roaming\\NuGet\\NuGet.Config",

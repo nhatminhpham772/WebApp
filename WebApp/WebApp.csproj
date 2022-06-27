@@ -13,4 +13,12 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.26" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebApp.Application\WebApp.Application.csproj" />
+    <ProjectReference Include="..\WebApp.Data.EF\WebApp.Data.EF.csproj" />
+    <ProjectReference Include="..\WebApp.Data\WebApp.Data.csproj" />
+    <ProjectReference Include="..\WebApp.Infrastructure\WebApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\WebApp.Utilities\WebApp.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
